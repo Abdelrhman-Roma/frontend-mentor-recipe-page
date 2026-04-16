@@ -1,0 +1,142 @@
+/* globle rules  */
+*{
+    margin:0;
+    padding:0;
+}
+body{
+    background-color: #f5ece4;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+img{
+    width: 100%;
+    border-radius: 10px;
+    display: block;
+}
+.container{
+    padding: 20px;
+    background-color:white ;
+    max-width: 700px;
+    border-radius: 10px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+section:nth-child(3),section:nth-child(4){
+    border-bottom: 1px solid hsla(30, 10%, 34%,0.5);
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+}
+/* end globel rules  */
+/* start header  */
+header h1{
+    font-family:Young Serif;
+    font-weight: 400;
+    padding-top: 20px;
+    padding-bottom:20px;
+    color:hsl(24, 5%, 18%)
+}
+header p{
+    font-size: 16px;
+    padding-bottom:20px;
+    line-height: 1.5;
+    color:hsl(30, 10%, 34%);
+}
+/* end header  */
+/* start preparation section  */
+.preparation{
+    background-color:hsl(330, 100%, 98%);
+    padding: 20px;
+    border-radius: 10px;
+}
+.preparation h2{
+    font-size: 20px;
+    padding:5px;
+    color:hsl(332, 51%, 32%);
+}
+.preparation li::marker{
+    color:hsl(332, 51%, 32%);
+}
+.preparation li{
+    padding-left:20px;
+    padding-top:5px;
+    padding-bottom:5px;
+    color:hsl(30, 10%, 34%);
+}
+.preparation ul{
+    padding-left: 30px;
+}
+/* end preparation section  */
+/* start ingredients section  */
+.ingredients h2{
+    color: hsl(14, 45%, 36%);
+    padding: 20px
+}
+.ingredients li::marker{
+    color: hsl(14, 45%, 36%)
+}
+.ingredients li{
+    padding-left: 20px;
+    color:hsl(30, 10%, 34%);
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+.ingredients ul{
+    padding-left: 40px;
+}
+/* end ingredients section  */
+/* start instructions section  */
+.instructions h2{
+    color:hsl(14, 45%, 36%);
+    padding: 20px;
+}
+.instructions li::marker{
+    color: hsl(14, 45%, 36%);
+    font-weight: bold;
+}
+.instructions li{
+    padding-left:20px;
+    color: hsl(30, 10%, 34%);
+    padding-top: 5px;
+    padding-bottom:5px;
+    line-height: 1.4;
+}
+.instructions ol{
+    padding-left: 40px;
+}
+/* end instructions section  */
+/* start nutrition section  */
+.nutrition h2{
+    color:hsl(14, 45%, 36%);
+    padding: 20px;
+}
+.nutrition p{
+    color:hsl(30, 10%, 34%);
+    padding-left:20px;
+    padding-bottom:20px;
+}
+.nutrition table {
+    width:100%;
+    border-collapse:collapse;
+}
+tr{
+    color:hsl(30, 10%, 34%);
+    border-bottom: 1px solid hsla(30, 10%, 34%,0.5);
+}
+td:nth-child(2){
+    color: hsl(14, 45%, 36%);
+    font-weight:bold;
+}
+tr:last-child{
+    border-bottom: none;
+}
+td{
+
+    padding: 20px 40px;
+}
+/* end nutrition section  */
+/* start footer  */
+footer{
+margin-bottom:20px
+}
+/* end footer  */
