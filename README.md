@@ -6,7 +6,7 @@ A clean and responsive recipe page built using **HTML & CSS** as part of a Front
 
 ## 📸 Preview
 
-![Project Preview](./recipe-page-main/preview.jpg)
+![Project Preview](./preview.jpg)
 
 ---
 
