@@ -12,8 +12,8 @@ A clean and responsive recipe page built using **HTML & CSS** as part of a Front
 
 ## 🔗 Live Demo
 
-- 🌐 Live Site: [[Site](http://127.0.0.1:5500/recipe-page-main/index.html#www.linkedin.com/in/abdelrhmanroma)]
-- 💻 Repository: [[Repo](https://abdelrhman-roma.github.io/frontend-mentor-recipe-page/)]
+- 🌐 Live Site: [[Site](https://abdelrhman-roma.github.io/frontend-mentor-recipe-page/)]
+- 💻 Repository: [[Repo](https://github.com/Abdelrhman-Roma/frontend-mentor-recipe-page)]
 
 ---
 
